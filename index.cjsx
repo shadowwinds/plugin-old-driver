@@ -49,7 +49,7 @@ module.exports =
     checkNodeInfo: (nodeNumber) ->
       for node in @state.areaNodeInfo when nodeNumber == node.nodeNumber
         setTimeout  =>
-          window.notify(__ 'About to enter area %s',  mapInfo)
+          window.notify(__ 'About to enter area %s',  nodeNumber)
           if @state.refreshPage
             webview.reload()
         ,1000
