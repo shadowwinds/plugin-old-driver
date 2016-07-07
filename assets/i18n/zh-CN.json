@@ -1,0 +1,13 @@
+{
+"window-title": "安全驾驶",
+"Old driver": "安全驾驶",
+"notify(and refresh page) while your fleet about to enter area you Configured": "在舰队即将进入指定海域点时提醒(并刷新页面)",
+"About to enter area %s": "即将进入海域点%s",
+"Refresh page":"刷新页面",
+"Settings":"选项",
+"Node list": "海域点列表",
+"Node number": "海域点编号",
+"Enter the map node here (e.g. 5-1-2, 3-5-1)": " 请输入海域点编号（如 5-1-2、3-5-1）",
+"Add": "添加",
+"Delete": "删除"
+}

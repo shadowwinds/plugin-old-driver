@@ -1,0 +1,27 @@
+{
+  "name": "poi-plugin-old-driver",
+  "version": "0.1.0",
+  "description": "a plugin for poi, notify(and refresh page) while your fleet about to enter area you Configured",
+  "main": "index.cjsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowwinds/poi-plugin-old-driver.git"
+  },
+  "author": {
+    "name": "shadowwind",
+    "link": "https://github.com/shadowwinds"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shadowwinds/poi-plugin-old-driver/issues"
+  },
+  "homepage": "https://github.com/shadowwinds/poi-plugin-old-driver#readme",
+  "dependencies": {
+  },
+  "poiPlugin": {
+    "title": "Old driver",
+    "description": "notify(and refresh page) while your fleet about to enter area you Configured",
+    "icon": "fa/refresh",
+    "priority": 8
+  }
+}
