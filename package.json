@@ -1,6 +1,6 @@
 {
   "name": "poi-plugin-old-driver",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "a plugin for poi, notify(and refresh page) while your fleet about to enter area you Configured",
   "main": "index.cjsx",
   "repository": {
