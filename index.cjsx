@@ -28,9 +28,9 @@ module.exports =
       @setState
         refreshPage: state
       config.set 'plugin.OldDriver.refreshPage', state
-    handleChangeNode: (index) ->
+    handleChangeNode: (index, e) ->
       info = @state.areaNodeInfo
-      info[index].nodeNumber = @refs["nodeNumber#{index}"].getValue()
+      info[index].nodeNumber = e.target.value
       @setState
         areaNodeInfo: info
       config.set 'plugin.OldDriver.areaNodeInfo', info
